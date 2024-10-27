@@ -1,0 +1,23 @@
+.container-row {
+  height: 25vh;
+  padding: 10px;
+}
+.inner-container {
+  background-color: #f8f9fa;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-right: 20px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.inner-container:last-child {
+  margin-right: 0;
+}
+.inner-container img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}

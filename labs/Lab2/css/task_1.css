@@ -1,0 +1,23 @@
+html,
+body {
+  height: 98%;
+  border: 1 px solid #000000;
+  margin: 5px;
+}
+.container {
+  border: 1px solid #000000;
+}
+.blue-bg {
+  color: white;
+}
+.vertical-tile {
+  height: 32%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vertical-line {
+  border-left: 1px solid #000000;
+}
