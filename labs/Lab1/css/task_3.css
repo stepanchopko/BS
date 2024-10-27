@@ -1,0 +1,40 @@
+.main-container {
+  border: 1px solid #486bca;
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+}
+.side-container {
+  background-color: #486bca;
+  height: 100%;
+}
+.gallery,
+.title-section,
+.buy-box,
+.description-section,
+.related-section {
+  background-color: #486bca;
+  padding: 20px;
+}
+.gallery {
+  height: 500px;
+}
+.title-section {
+  height: 150px;
+}
+.buy-box {
+  margin-top: 20px;
+  flex-grow: 1;
+}
+.description-section,
+.related-section {
+  margin-top: 20px;
+  height: 25%;
+}
+.related-section {
+  height: 25%;
+}
+.overflow-auto {
+  overflow: auto;
+}
