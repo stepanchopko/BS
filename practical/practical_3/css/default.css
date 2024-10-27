@@ -1,0 +1,36 @@
+#head_main {
+  background: red;
+  height: 90px;
+  border-bottom: 10px solid #cc0b0b;
+}
+#head_main h1 {
+  color: #fff;
+  float: left;
+  display: inline-block;
+}
+#head_main nav > ul > li {
+  display: inline-block;
+  float: right;
+  margin-right: 30px;
+  width: 100px;
+  text-align: center;
+}
+#head_main nav > ul > li > a {
+  color: #fff;
+  background: #cc0b0b;
+  font-size: 20px;
+  text-decoration: none;
+  line-height: 90px;
+  display: block;
+}
+#head_main nav > ul > li > a:hover {
+  background: #730303;
+}
+main {
+  width: 1000px;
+  margin: auto;
+}
+article {
+  width: 700px;
+  float: left;
+}
